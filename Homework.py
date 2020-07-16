@@ -9,7 +9,7 @@ class Main(object):
 	def __init__(self):
 
 		self.window = Tk()
-		self.window.title("Auto3Day") #視窗名稱
+		self.window.title("Homework") #視窗名稱
 		self.window.config(background = "#f0f0f0")#更該視窗背景顏色
 		self.window.geometry("450x360+600+250") #視窗解析度 (x*y+視窗欲固定的畫面位置X+視窗欲固定的畫面位置Y)
 		self.window.resizable(0,0) #不可以更改大⼩
